@@ -2,27 +2,17 @@
     height: 100%;
 }
 
-.wrapper_login_page{
+.LoginPage {
     display: flex;
     height: 100%;
-    justify-content: center;
     align-items: center;
-
-}
-.LoginPage {
-    position: relative;
-    width: 800px;
-    height: 500px;
-    background-image: url("logo2.jpg");
+    justify-content: center;
 }
 
 .wrap_login_content {
-    position: absolute;
-    clear: both;
-    right: 5%;
-    top:10%;
+
     width:400px;
-    /*right: -10%;*/
+
     background-image: url("./logo1.jpg");
 
 }
@@ -30,11 +20,11 @@
 
 
 
+
 .LoginContent {
 
     padding: 50px;
-    /*border: gray 2px solid;*/
-    /*border-radius: 25px;*/
+
 }
 
 .login_text {
